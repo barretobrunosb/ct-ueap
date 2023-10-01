@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Cache Cerâmico</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Estrutura localizada na UC 48, Área 1A, definida como Cache Cerâmico. Em superfície era possível
+    visualizar parte da vasilha. Além disso, destaca-se a composição diferenciada das extremidades Oeste e Leste da
+    estrutura em termos de coloração e textura do solo. A porção Oeste apresentava sedimento com coloração homogênea em
+    10YR 3/2 e textura areno-argilosa. Na porção Leste, por outro lado, foi observado um sedimento composto por pequenas
+    lateritas, com coloração 7.5YR 5/6 e textura argilo-arenosa. Essa divisão se explica pela percepção de que a mancha
+    retangular (que se estende de Norte a Sul junto à porção Leste) acompanha a mesma direção de uma valeta de tubulação
+    escavada nesta área em 2016.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="7_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 7
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Destaca-se que foram coletados materiais cerâmicos provenientes de peneiramento do sedimento retirado da escavação
+    da UC. A porção Leste da estrutura praticamente não apresentou cerâmicas nos níveis mais superficiais da escavação.
+    No setor Noroeste observaram-se alguns blocos de laterita de maior proporção, além de muitos fragmentos cerâmicos
+    associados ao solo com coloração bastante escura.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A escavação foi expandida no sentido norte para acompanhar a mancha. Nesse sentido, foi evidenciada a morfologia de
+    uma vasilha principal, caracterizada por uma cerâmica espessa, alaranjada e friável. Ademais, havia uma cerâmica
+    menos espessa e escura (aparentemente com queima redutora), envolvendo externamente a vasilha principal, à Sudeste e
+    outra à Noroeste (possível tampa).
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    As porções Noroeste e Nordeste aparentam ter um maior grau de impactação pela escavação da valeta e outros vetores
+    de degradação, uma vez que muitos cacos estão amontoados sobre a vasilha principal a Noroeste. Nesta porção, além
+    disso, observou-se uma grande quantidade de pequenos fragmentos cerâmicos dispersos na porção exterior da estrutura,
+    porém próximos à vasilha. Na porção Norte foi identificado um fragmento cerâmico com decoração incisa. Adjacente a
+    este, havia um fragmento com decoração incisa da fase Mazagão, com características distintas ao primeiro. Num
+    patamar inferior, outro fragmento cerâmico com decoração incisa foi evidenciado. Estes fragmentos estavam
+    localizados junto à face externa da parede da vasilha principal.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    No interior da vasilha, havia muitos cacos cerâmicos posicionados de forma concêntrica junto à porção Leste. Isso
+    sugere que outros vasilhames tenham sido alocados no interior da vasilha principal. Além disso, na porção Oeste as
+    quebras dos fragmentos na borda da vasilha principal formam um ângulo reto nas cerâmicas, reforçando a hipótese de
+    que o vasilhame sofreu impacto da construção da estrada, pois o seu interior foi parcialmente coberto com o aterro
+    utilizado no pavimento da estrada que passa ao lado.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="7_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption>
+      <b> <!-- Legenda da Figura -->
+        Perfil e foto da estrutura 7
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A escavação do setor central interno da vasilha principal revelou algumas bordas de maior proporção. Este fato
+    também sugere que houve a colocação de vasilhas inteiras e/ou quebradas dentro do vasilhame principal. Foram
+    coletados grandes fragmentos cerâmicos do interior da estrutura, a maioria posicionados nas porções: Norte, Noroeste
+    e Leste. Estes materiais estavam bastante friáveis e, por isso, muitos se fragmentaram durante a retirada. Na porção
+    Sudoeste do interior da vasilha principal foram observados pequenos e pontuais fragmentos cerâmicos. Abaixo de um
+    grande fragmento côncavo, no setor Sudeste, foi identificado a forma de uma pequena vasilha com borda aparente.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Havia um aplique cerâmico zoomorfo na porção central da vasilha principal (Figura 84), associado a uma peça de
+    grande porte (friável) e alguns pequenos fragmentos, provavelmente provenientes de peças maiores localizadas nesta
+    porção.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Constavam no interior da estrutura, para mais, quatro bordas no setor Leste, uma destas com a face interna virada
+    para o topo e outra borda decorada com alça. Identificaram-se uma borda e uma parede com decoração incisa na porção
+    Oeste.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Evidenciaram-se, ademais, três apliques alinhados nas extremidades internas Leste e Oeste e porção Central. Todos
+    parecem constituir-se de apliques zoomorfos. Os posicionados nas extremidades Leste e Oeste possuem apliques em
+    forma de pastilhas. No setor interno Sul identificou-se uma borda e um banco.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Em linhas gerais, todo interior da estrutura apresentava fragmentos de vasilhames menores encimados e distribuídos
+    por todos os vértices internos da vasilha principal, com presença de lateritas, junto ao setor Norte. Estes
+    materiais foram retirados de forma sequencial e gradual. É possível perceber pelo desenho de perfil que os
+    fragmentos de diferentes vasilhas foram quebrados antes da deposição, e cuidadosamente empilhados uns sobre os
+    outros, dispostos na horizontal.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Em termos de comportamento do solo, verificou-se que a partir de 20 cm de profundidade houve um aumento no grau de
+    compactação do solo no interior da vasilha. Do mesmo modo, observou-se que no fundo da vasilha principal o sedimento
+    encontrava-se mais compacto e agrupado a pequenos fragmentos cerâmicos. Além disso, foram observadas pequenas
+    concentrações de carvão nas porções internas Leste e Oeste.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A coleta da vasilha principal resultou em fragmentos cerâmicos da parte “superior”, do “bojo” e do “fundo”. O
+    levantamento preliminar registra um total de 451 fragmentos cerâmicos e 12 líticos coletados na Estrutura 7.
+  </p>
+
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

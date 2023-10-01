@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Cache Cerâmico</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Estrutura localizada na UC 37, definida como Cache Cerâmico. Nos primeiros centímetros de escavação evidenciou-se,
+    através da morfologia de uma borda, a presença de uma vasilha principal de grande proporção que foi chamada de
+    vasilha A. Na parte externa da vasilha A, na porção Leste, foi evidenciado uma pequena vasilha em formato oval,
+    quebrada in situ, com dimensões de 10 x 12 cm. Essa vasilha possui uma espessura fina, com pintura interna vermelha,
+    de textura friável.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="8_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 8
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A escavação evidenciou uma grande concentração e sobreposição de vasilhas e fragmentos cerâmicos no interior da
+    vasilha principal. No seu interior, pelo menos cinco vasilhas foram observadas inteiras e/ou massivamente inteiras,
+    com potencial de remontagem. Essas vasilhas variam em forma e tamanho, desde pratos, à vasilhames com apliques
+    zoomorfos. De acordo com o posicionamento dos fragmentos cerâmicos sobrepostos, é possível afirmar que algumas
+    vasilhas foram depositadas já fragmentadas em um ordenamento intencional. Além das vasilhas, foram evidenciados no
+    interior da vasilha principal uma grande quantidade de fragmentos cerâmicos com distintas pastas, espessuras,
+    dimensões e características de queima, formando um emaranhado de cacos empilhados. Esses fragmentos estavam
+    depositados no interior da vasilha em diferentes posições, horizontal e vertical, e possuíam pouco sedimento entre
+    um fragmento e outro.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Esse arranjo cerâmico sugere distintos momentos de deposição. A deposição inicial da vasilha principal “A”, em uma
+    fossa rente à sua forma; as deposições internas nesta vasilha “A”, compostas por elementos selecionados e que foram
+    cuidadosamente colocados, como as vasilhas inteiras; uma deposição aparentemente mais aleatória também no interior
+    da vasilha principal, composta de fragmentos cerâmicos variados; e uma deposição externa à vasilha principal.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    No exterior da vasilha A foram identificados fragmentos cerâmicos circundando todo vasilhame. Estes materiais podem
+    ser vestígios de uma tampa da vasilha principal que colapsou, tendo em vista que há muitos fragmentos que
+    visivelmente pertencem ao mesmo vasilhame. Todavia, devido a variedade cerâmica e características deposicionais,
+    podemos afirmar que parte dos vestígios externos da vasilha “A” também foram depositados propositalmente como
+    acompanhamento desse arranjo cerâmico e não compõem uma possível tampa.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A escavação interna da vasilha principal foi cuidadosamente descrita e registrada, fazendo distinção às porções de
+    acordo com as direções dos pontos cardeais e colaterais. Em linhas gerais, na porção Norte percebeu-se mais
+    fragmentos cerâmicos na posição horizontal; a Sul e Sudeste, mais fragmentos posicionados na vertical; enquanto a
+    Noroeste e Sudoeste, um grande emaranhado de sobreposições em várias orientações.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="8_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption>
+      <b> <!-- Legenda da Figura -->
+        Perfil e foto da estrutura 8
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Os materiais foram separados in situ segundo critérios de: 1) Localização em relação a estrutura (Interno, Externo);
+    2) Identificação de vasilhame; 3) Fragmentos remontáveis (foram agrupados); 4) Conservação física dos vestígios.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Dentre os muitos vestígios registrados e coletados do interior da vasilha principal, vale destacar alguns que são
+    diagnósticos para compreensão do contexto, como: a vasilha B que foi evidenciada parcialmente inteira, com forma de
+    tigela apresentando uma pasta cerâmica avermelhada; um fragmento de um provável banco cerâmico com decoração incisas
+    Mazagão; um fragmento de grande proporção de uma urna antropomorfa , com olhos, nariz e orelhas; e uma
+    vasilha inteira, intitulada de vasilha C, depositada na horizontal sobre outros pratos cerâmicos e com a abertura
+    voltada para o Norte. Por fim, após os 40 cm de profundidade, rente ao limite Sudoeste da vasilha principal,
+    identificou-se outra vasilha com elementos zoomorfos (dois apliques que remetem a dois jacarés).
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A esta vasilha foi dada a nomenclatura de vasilha D. A vasilha de pequena proporção foi coletada com sedimento, para
+    posterior escavação em laboratório. Mesmo sem ser escavada em campo, foi possível identificar outra vasilha em seu
+    interior, também com aplique zoomorfo e alça. Esta vasilha no interior da vasilha D foi nomeada como vasilha E.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Apenas alguns fragmentos cerâmicos estavam abaixo da vasilha D como forma de calço, e após suas retiradas a
+    escavação interna da vasilha foi finalizada. O fundo da vasilha principal estava fragmentado e parcialmente
+    deslocado, especialmente na porção Sul e Oeste, com uma maior verticalização de alguns cacos, indicando uma ação
+    pós-deposicional. Sua queima é aparentemente oxidante, e devido sua friabilidade e fragmentação, sua retirada foi
+    setorizada em parte superior, meio e fundo para posterior remontagem.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Um elemento interessante desse contexto, que se repete nos outros caches cerâmicos desse sítio, é a presença de
+    grandes blocos de laterita sobrepostos por fragmentos cerâmicos no interior da vasilha principal. Na estrutura 8
+    foram evidenciados blocos de laterita aos 10 cm e aos 20 cm de profundidade, assim como ao final da escavação
+    interna da vasilha principal, associado a uma vasilha com apliques zoomorfos.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Além disso, foram encontrados dois fragmentos cerâmicos de duas vasilhas remontáveis com fragmentos depositados nas
+    estruturas 48 e 44. A peça de ID 1392, um pequeno jarro com alça encontrado na estrutura 44, era remontável com um
+    fragmento de borda encontrado na estrutura 8. Já a peça de ID 1318, um grande jarro com pescoço encontrado na
+    <a href="../48/48.html">Estrutura 48</a>, era remontável com um pedaço de borda encontrado na estrutura 8. Enquanto
+    a <a href="../48/48.html">Estrutura 48</a> estava situada a 20 metros de distância da estrutura 8, os caches
+    cerâmicos <a href="../7/7.html">7</a>, <a href="../8/8.html">8</a> e <a href="../44/44.html">44</a> são estruturas
+    que formavam um conjunto de acompanhamento junto de uma urna funerária.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Ao longo da escavação interna da vasilha principal observou-se que os padrões de deposição foram se alterando, com a
+    diminuição na densidade de material cerâmico, em especial nas porções Leste e Nordeste após os 20 – 25 cm de
+    profundidade, ocasionando um aumento na quantidade de sedimento entre os cacos. Observou-se que este processo está
+    associado a um aumento da quantidade de micro carvões no sedimento e uma presença pontual de matização de um
+    sedimento mais amarelado e compacto entre 25 e 30 cm de profundidade.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    De modo geral o sedimento interno da vasilha principal estava homogêneo, solto, de característica argilo-arenosa e
+    coloração 10YR 2/2, com exceção de uma mancha de coloração marrom avermelhada escura (5YR 3/2). O sedimento externo
+    a estrutura também era argilo-arenoso, mas apresentava-se semi-compacto e com coloração 10YR 4/6.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Uma quantificação preliminar indica que ao todo foram coletados 1002 fragmentos cerâmicos coletados da Estrutura 8,
+    sem vestígios líticos, com exceção dos blocos de laterita.
+  </p>
+
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

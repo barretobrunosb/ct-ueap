@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Deposição cerâmica</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Estrutura localizada na UC 391, Área 5, definida como Deposição Cerâmica. Foi identificada em superfície a base de
+    um prato ou vasilha, com a estrutura impactada possivelmente pela ação do maquinário. Não foram identificadas
+    variações na coloração do solo que pudessem servir para delimitação da estrutura. Desse modo, a escavação foi
+    realizada de fora para dentro, buscando identificar vestígios materiais associados à deposição cerâmica. Foi
+    verificada a presença de uma pequena concentração de carvões no setor Sul, junto ao perfil da unidade de coleta, na
+    parte externa da estrutura, aparentemente proveniente de queima natural. Ademais, foi observada uma fina camada de
+    sedimento com presença de argila queimada cobrindo parcialmente a base da cerâmica.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="311_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 311
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A estrutura está situada sobre um testemunho bastante elevado, que se encontra quase no nível do solo original do
+    terreno. Foram evidenciados oito pequenos fragmentos cerâmicos, nos primeiros centímetros de escavação, associados
+    ao testemunho e às bioturbações presentes no entorno da estrutura, na porção Nordeste/Leste. Não se constatou a
+    continuidade desses materiais em cota negativa. Ademais, os fragmentos não parecem ser provenientes da estrutura. O
+    solo do interior e exterior da estrutura estava bastante compacto, com textura argilo-arenosa e matizações mais
+    claras, variando entre 10YR 4/3, 10YR 5/3 e 10YR 6/3.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="311_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption>
+      <b> <!-- Legenda da Figura -->
+        Perfil e foto da estrutura 311
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Em síntese, a deposição cerâmica constitui-se da base de uma vasilha ou prato, alocada no topo de um testemunho que
+    se encontra quase no nível do terreno original. A base encontrava-se bastante friável e a estrutura era bastante
+    rasa, não sendo identificados outros materiais arqueológicos sob a peça. Não foram verificadas concentrações de
+    carvão no interior ou adjacências da estrutura, apenas a presença pontual de alguns carvões. O levantamento
+    preliminar registrou um total de 10 fragmentos cerâmicos coletados na Estrutura 311.
+  </p>
+
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

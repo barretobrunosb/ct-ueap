@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Bolsão/Poço</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Estrutura de combustão localizada entre as unidades de coleta 128 e 129. Esta estrutura foi escavada em dois
+    momentos. No primeiro momento foi escavado o “corte Oeste” da mancha identificada em superfície, depois foi
+    realizada a escavação do “corte Leste”.
+
+    <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="48_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 48
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Em superfície já era perceptível a presença de carvões na estrutura. O setor Noroeste apresentou um fragmento de
+    rocha não identificado e na porção Norte, junto ao limite da fossa, observou-se uma laterita de maior porte.
+    Constatou-se a presença de fragmentos cerâmicos de pequeno porte desde o início da escavação, distribuídos de
+    maneira pontual e irregular.
+  </p>
+
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Na porção Central, próximo à parede divisória da estrutura, verificou-se uma bioturbação de 15 cm de diâmetro. No
+    setor Sudoeste, observou-se a presença de um bloco de laterita de tamanho médio, no limite da fossa.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A partir dos 20 cm de profundidade, os carvões aumentaram em proporção, com uma distribuição por todo corte Oeste.
+    Neste patamar começaram a surgir fragmentos cerâmicos de médio porte, alocados no setor Norte à porção Central da
+    estrutura. Nesse contexto, verificou-se a presença de um fragmento cerâmico de grande porte (21 x 25 cm), definido
+    enquanto uma borda e pescoço de um grande jarro. Este fragmento (ID 1318) se estendia para o corte Leste da
+    estrutura, cobrindo toda área Central da fossa. Na estrutura 8, foi encontrado um fragmento de borda deste mesmo
+    jarro, que remonta na peça encontrada na estrutura 48, denotando a contemporaneidade de deposição nas duas
+    estruturas. O interessante, é que a distância entre as estruturas 48 e 8 é de 20 metros.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="48_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption>
+      <b> <!-- Legenda da Figura -->
+        Foto da estrutura 48
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O corte Leste apresentou fragmentos de cerâmica e lateritas. Foi identificado, nas porções Norte, Nordeste e Sudeste
+    (junto ao perfil da parede divisória da estrutura) a presença de argila queimada e de blocos de laterita de médio e
+    pequeno porte, associados a carvões. Observou-se que aos 28 cm de profundidade esta concentração de argila queimada
+    formava uma camada mais uniforme nos setores Nordeste, Central e Sudeste.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="48_3.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption>
+      <b> <!-- Legenda da Figura -->
+        Perfil e foto da estrutura 48
+      </b>
+    </figcaption>
+  </figure>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Na porção Nordeste havia ossos carbonizados, provavelmente relacionados à fauna. Esta concentração se encontrava a
+    35 cm de profundidade abaixo do pescoço do jarro, e se expandia para as porções Sudoeste e Sudeste, até a parede do
+    setor Noroeste. O material ósseo estava em sua maior parte muito fragmentado e muito friável. Junto à porção
+    Nordeste, sob a camada de argila queimada, havia um outro fragmento de osso carbonizado. A concentração de argila
+    mais uniforme finalizou em 40 cm de profundidade na porção Nordeste. Na porção Central, esta passou a se associar
+    com a concentração de carvões e ossos que se estendiam para a porção Sul/Sudoeste. O levantamento preliminar da
+    estrutura indica um total de 77 fragmentos cerâmicos e 17 possíveis líticos coletados.
+  </p>
+
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

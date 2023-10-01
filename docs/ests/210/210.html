@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Cache Cerâmico</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Estrutura localizada na Área 1C e classificada como Cache Cerâmico. Essa deposição se caracteriza pela
+    presença de uma vasilha principal, com muitos fragmentos cerâmicos e algumas lateritas em seu interior. A vasilha
+    principal estava envolvida por uma grande quantidade de cerâmicas e duas pequenas vasilhas.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="210_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 210
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Inicialmente, fragmentos cerâmicos foram observados dispersos sobre uma área com 90cm de diâmetro na direção SE-NW,
+    muito próximos ao limite NE da UC 258. As primeiras exposições revelaram pequenos fragmentos cerâmicos circundando
+    peças maiores e o avanço da concentração de cacos em direção ao perfil NE. A continuidade da escavação confirmou a
+    presença de uma grande vasilha na porção central da estrutura com, aproximadamente, 1/3 de seu volume oculto sob o
+    perfil NE. Foi necessário ampliar a área de escavação em direção ao perfil NE, de modo a englobar as dimensões
+    totais da vasilha principal e da concentração cerâmica que estava a sua volta. A ampliação foi chamada de porção “B”
+    da estrutura, enquanto a porção evidenciada pela decapagem mecânica foi chamada de “A”.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A escavação da porção B revelou uma grande quantidade de fragmentos cerâmicos circundando a vasilha principal a
+    norte, nordeste e leste: pequenos fragmentos depositados horizontalmente encimando cacos maiores e depositados em
+    ângulos que tendem a 45º. No interior da vasilha principal, os primeiros níveis de escavação revelaram lateritas e
+    pouquíssimos carvões. Uma das lateritas possuía grandes dimensões (25 x 12 x 11cm). As lateritas do interior da
+    vasilha principal foram sempre coletadas.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A partir da delimitação dos fragmentos maiores que circundam a vasilha principal em todas as direções, a escavação
+    focou no interior da vasilha principal, para evitar o colapso de suas paredes, tendo em vista sua friabilidade. Os
+    sedimentos do interior se mantiveram soltos, com poucos carvões e radículas. As radículas estavam principalmente
+    associadas às paredes internas da vasilha principal e a seu fundo. Além de lateritas, o interior da vasilha
+    principal era composto por uma grande quantidade de cacos cerâmicos (algumas bordas, poucos fragmentos de base e
+    muitos fragmentos de parede oriundos de vasilhas/indivíduos diferentes).
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A maioria dos fragmentos cerâmicos eram de pequena proporção (5cm, aproximadamente) e estavam depositados em posição
+    que tendia a linha horizontal. Alguns poucos fragmentos estavam em posição vertical – neste caso, mais próximos ao
+    fundo da vasilha. Havia também cacos maiores. Três, em particular, a 35 cm de profundidade, pareciam pertencer a
+    mesma vasilha: possuíam uma pasta avermelhada e parede espessa. Um deles estava com um segmento da borda presente e
+    possuía um ponto de inflexão. Estavam horizontalmente dispostos, e, juntos, recobriam boa parte da área interna na
+    vasilha.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="210_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption>
+      <b> <!-- Legenda da Figura -->
+        Perfil e fotos da estrutura 210
+      </b>
+    </figcaption>
+  </figure>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Nesse nível, havia outros fragmentos cerâmicos de proporções maiores e bordas posicionadas em diferentes porções do
+    interior da vasilha. A 32cm de profundidade, na porção SW, foi identificado um aplique cerâmico zoomórfico. Trata-se
+    de uma cabeça, com a representação de dois olhos e dois chifres.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Quanto mais próximo do fundo, maior a quantidade de radículas e menor o tamanho dos fragmentos cerâmicos. Também
+    próximo ao fundo, pequeninas lateritas (não maiores do que 1cm) estavam dispersas em meio ao sedimento e cacos
+    cerâmicos. Finalmente, ao alcançar o fundo da vasilha, a escavação revelou a existência de um orifício, com 4 cm de
+    diâmetro, ao centro da base. Além disso, a face interna da base apresentava aspecto erodido e foi possível notar que
+    a vasilha principal estava ligeiramente inclinada na fossa, com o lado NE mais alto do que o SW.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Durante a escavação da porção interna da vasilha principal, alguns fragmentos da parede se desprenderam devido a
+    fissuras que apareciam com o ressecamento da cerâmica. O sedimento da porção interna se manteve homogêneo ao longo
+    da escavação, solto e com coloração 10YR 3/3.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Após a finalização da escavação da porção interna da vasilha principal, se deu sequência a escavação de seu
+    exterior. Duas pequenas vasilhas, ambas fragmentadas, ladeavam a vasilha principal e foram nomeadas de acordo com
+    sua posição: “Vasilha SW” e “Vasilha SE”.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A Vasilha SE embora fragmentada pode ser descrita como um pequeno pote, restringido, com borda inclinada
+    externamente e perfil exterior côncavo. É possível que o pescoço tenha recebido banho vermelho na face externa. O
+    pote mantinha certa coesão de sua forma somente pela presença de sedimento, já que sua condição friável e fissuras
+    indicavam que seria necessário desmontá-la para realizar sua coleta. É possível que a Vasilha SE tenha sido
+    depositada inteira e que tenha sido comprimida contra o vaso maior devido à pressão exercida pela coluna de
+    sedimentos. O pote estava a 45º, de modo que sua boca estava voltada para o bojo da Vasilha Principal.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A Vasilha SE foi atingida pela ação de curiosos durante a campanha de escavação, todavia, os fragmentos foram
+    deixados no local e coletados pela equipe.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A Vasilha SW estava no mesmo nível da Vasilha NE, embora diametralmente oposta a ela. Estavam presentes base e o
+    terço inferior desse pequeno pote. Não é possível estimar sua forma, mas possuía uma pasta escura, possivelmente com
+    queima redutora. Neste caso, sua condição era ainda mais friável do que a Vasilha SE.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Ainda na porção externa da estrutura, quatro concentrações principais de fragmentos podem ser descritas: uma na
+    porção sul, outra na porção NE, uma terceira na porção SW e a última na porção norte. Não havia fragmentos no lado
+    oeste.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A concentração do lado sul apresentava uma sequência com dezenas de fragmentos empilhados junto à face externa da
+    parede. Estes cacos possuíam características distintas entre si. No sentido SW, havia um grande fragmento cerâmico
+    em posição vertical e em ângulo de 90º com a parede da Vasilha principal. A concentração no lado NE apresentava um
+    grande fragmento “encaixado” sob a parede da vasilha principal. De conjunto, as concentrações de cerâmicas estavam
+    depositadas formando uma espécie de “apoio” ou “base” para a vasilha principal.
+  </p>
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

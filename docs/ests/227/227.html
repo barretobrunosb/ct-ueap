@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Fossa com buraco de poste</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A estrutura 227 é um conjunto formado por 4 fossas que foram subdivididas em “227 A” (na porção oeste),
+    “227 B” (na porção central), “227 C” (na porção sul) e “227 D” (na porção norte). As estruturas “A”, “C” e “D” foram
+    definidas como fossas, enquanto a “B” foi classificada como buraco de poste. Os limites entre as subdivisões foram
+    estabelecidos com base na proporção das manchas mais escuras de cada estrutura e na dispersão dos materiais
+    arqueológicos.
+  </p>
+
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="227_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 227
+      </b>
+    </figcaption>
+  </figure>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Em superfície, foi observado que a mancha mais escura da estrutura 227A possuía formato circular, com presença de
+    cerâmica e dois blocos de laterita em contexto. Com a continuidade da escavação, verificamos que havia muitas
+    cerâmicas quebradas in situ dispostas horizontalmente entre 1 e 14 cm, com maior concentração na porção norte da
+    estrutura. Os materiais não formavam um conjunto. Entre 2 e 19 cm de profundidade foram escavados 4 blocos de
+    laterita depositados junto às cerâmicas. Após alcançar 14 cm de profundidade as cerâmicas cessaram e a escavação
+    seguiu norteada pela mancha de sedimento escuro até alcançar 27 cm de profundidade.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Localizado na porção central do conjunto de feições, a estrutura 227B apresentava cerâmica em superfície, bem
+    como laterita e, em maior quantidade, carvão. Na sua porção central havia blocos de carvão e uma concentração
+    cerâmica com fragmentos de 2 a 3 cm de comprimento. Em sua maioria, tais fragmentos estavam dispostos em sentido
+    inclinado. Essa concentração cerâmica cessou aos 14cm de profundidade.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="227_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Perfis e fotos da estrutura 227
+      </b>
+    </figcaption>
+  </figure>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A partir dos 14 cm de profundidade a presença de cerâmica diminuiu consideravelmente e destaca-se a coleta de um
+    bloco de laterita de 10 cm de comprimento por 8 cm de largura. A cavidade delimitada a partir da escavação da mancha
+    escura apresentou maior profundidade em relação à largura. Essa característica levou à definição da estrutura como
+    buraco de poste. A escavação encerrou aos 59 cm de profundidade e 70 fragmentos cerâmicos foram coletados.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A 227C estava localizada na porção sul da estrutura 227. Foi definida como “fossa” trata-se de uma concentração de
+    fragmentos cerâmicos com presença de laterita, carvões e uma semente carbonizada.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Em superfície, havia uma dispersão cerâmica com pouca presença de carvão e uma semente carbonizada. À sudoeste havia
+    três fragmentos cerâmicos sobrepostos e encaixados um no outro. A partir dos 5 cm de profundidade se pode destacar a
+    presença de lateritas, entre elas, um bloco de 10 cm de comprimento.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    No interior da fossa, entre 5 cm e 25 cm, é nítida a redução da presença de fragmentos cerâmicos e a maior presença
+    de fragmentos lateríticos. Aos 45 cm de profundidade, um fragmento cerâmico aparece pontualmente na porção leste, e,
+    logo abaixo, só houve a presença de carvão que guiou a escavação da estrutura até os 63 cm de profundidade. O
+    levantamento preliminar apontou para a coleta de 364 fragmentos cerâmicos.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Localizada ao norte do conjunto, a 227D também pode ser considerada como uma fossa. A estrutura continha um
+    conglomerado de argila queimada e presença acentuada de carvão. Este agrupamento de argila queimada e carvão se
+    concentrava por toda a área central da estrutura, e o bloco possuía 15 cm de profundidade. Além desse bloco,
+    destaca-se a presença de uma laterita na porção central, assim como de 6 fragmentos cerâmicos a nordeste. A
+    escavação encerrou aos 20 cm de profundidade, após o solo com incidência de coloração 10 YR 6/5.
+  </p>
+
+
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

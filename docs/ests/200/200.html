@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Bolsão/Poço</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Estrutura complexa localizada na UC 207, Área 3, composta por Poço com deposição cerâmica e duas Fossas. No
+    princípio a área da estrutura restringia-se superficialmente a uma dispersão de fragmentos cerâmicos, carvões e
+    lateritas, espalhados sob um testemunho formado na UC 207, que apresentava um desnível entre as porções mais
+    elevadas e mais baixas de aproximadamente 20 cm. No processo de escavação evidenciou-se uma maior densidade de
+    materiais arqueológicos junto ao eixo Central da estrutura, se estendendo de Norte a Sul e expandindo-se igualmente
+    para porção Leste, configurando a caracterização de outras estruturas. Desse modo, verificou-se a composição de três
+    estruturas distintas que foram denominadas como: Estrutura 200A, que consiste em uma Fossa presente na área da
+    primeira dispersão de materiais, na porção Norte/Noroeste; Estrutura 200B que corresponde a outra Fossa, na porção
+    Sul/Sudoeste; e Estrutura 200C que se configura em um Poço com deposição cerâmica, na porção Leste.
+  </p>
+
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="200_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 200
+      </b>
+    </figcaption>
+  </figure>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Caracterizada como uma Fossa, localizada na primeira área de dispersão superficial de fragmentos cerâmicos, carvões
+    e lateritas, a estrutura 200A encontrava-se em um contexto de desnível entre suas porções Norte (mais
+    elevada) e Sul, por se encontrar em uma área de testemunho. Foram Identificados muitos pontos com carvões espalhados
+    entre os blocos de laterita e os fragmentos cerâmicos de maiores proporções. As lateritas estavam localizadas junto
+    a porção Centro/Oeste da estrutura, associadas a fragmentos cerâmicos com pasta alaranjada e bastante friáveis.
+    Verificou-se a presença de dois artefatos líticos, um na porção Leste e outro no Sul.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="200_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Perfis e fotos da estrutura 200
+      </b>
+    </figcaption>
+  </figure>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Entre 10 e 20 cm de profundidade, foram evidenciados fragmentos cerâmicos nas porções Central, Nordeste e Sudeste.
+    Já no patamar de 45 cm de profundidade, verificou-se a presença de uma laterita na porção Nordeste (com 16 cm de
+    comprimento e 8 de altura), junto a divisa com a estrutura 200C, e outra na porção Norte. Ademais, foram
+    identificados três fragmentos cerâmicos, dois na porção Sul, um destes posicionado na vertical com 5 cm de
+    comprimento, e outro na parede Leste.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O sedimento desta área era inicialmente muito compacto e com coloração heterogênea variando entre 10YR 3/1 e 10YR
+    4/1, fato que o diferenciava da porção externa à estrutura, porém mantinha-se a dificuldade de identificação de
+    manchas escuras no solo.
+  </p>
+
+  <!-- Seria interessante colocar 2 ou 3 imagens lado a lado -->
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Na superfície da estrutura 200B eram visíveis fragmentos cerâmicos soltos com coloração alaranjada e alto grau de
+    erosão e uma bolota de argila (Figura 100). Ademais, de forma mais fixa ao solo foram observadas três lateritas
+    médias, associadas a três fragmentos cerâmicos. Este material se encontrava concentrado na porção norte da estrutura
+    e estava organizado de forma semicircular. Além disso, em superfície já era possível verificar a presença de
+    latossolo na porção sul da estrutura.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Entre 6 e 16 cm de profundidade, o material cerâmico estava disposto tanto na horizontal quanto na vertical,
+    concentrado na porção Centro/Norte da estrutura. O material, de tamanho médio, se encontra bastante erodido,
+    impossibilitando a identificação do tratamento de superfície das peças. Dentre esses cacos cerâmicos, havia um
+    fragmento de borda com pasta avermelhada. Os outros fragmentos se dividem entre pastas acinzentadas e alaranjadas.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O material de patamar inferior a 16 cm de profundidade possui maiores dimensões, estes estavam posicionados na
+    horizontal e vertical, de forma alinhada, orientados na direção Norte/Sul e associados a carvões. Dentre eles, foi
+    encontrada uma borda com 10 cm de comprimento e 8 cm de largura. Na porção Leste, a partir dos 16 cm de
+    profundidade, foram encontrados alguns fragmentos cerâmicos de médio porte, dentre estes alguns que possuem pintura.
+    Também foi encontrada argila queimada na porção Centro/Leste, associada a uma bioturbação com presença de cerâmica e
+    carvões. Na porção Norte foi encontrada uma possível lasca lítica e nas porções Norte e Leste , algumas pequenas
+    concentrações de carvão. A estrutura foi finalizada aos 37 cm de profundidade, com a verificação de bioturbações na
+    base e algumas nas paredes da estrutura.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A estrutura 200C foi definida como um Poço com deposição cerâmica. Apresentava em superfície uma concentração de
+    fragmentos cerâmicos e lateritas, também se encontrava em um contexto de desnível entre suas porções Sul e Norte,
+    constando no patamar inferior da porção setentrional a presença de carvão e argila queimada.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A disposição do contexto do material presente na Estrutura 200C foi descrita com base na linha do perfil
+    Sudeste/Noroeste.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A organização da espacialidade dos materiais presentes na Estrutura 200 C foi feita com base na linha do perfil
+    Sudeste/Noroeste e na profundidade. O eixo transversal da estrutura foi descrito enquanto eixo “X”. A partir do eixo
+    “X”, havia uma concentração de carvões entre 50 e 60 cm, alocados entre 25 e 28 cm de profundidade. Na porção Leste
+    da estrutura havia uma mancha escura contendo carvões, fragmentos cerâmicos e uma laterita a 50 cm de profundidade.
+    A estrutura 200C apresentou uma série de conjuntos cerâmicos que foram classificados numericamente de acordo com as
+    camadas deposicionais em que se encontravam, considerados a partir do topo em relação à base da estrutura.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O Conjunto 1 é constituído por três cacos cerâmicos que compõem uma mesma vasilha não restringida. O material estava
+    posicionado verticalmente, com sua abertura voltada para cima, posicionado entre 8 e 18 cm do eixo X, no patamar de
+    30 e 37 cm de profundidade.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O Conjunto 2 caracteriza-se por um perfil quase completo de uma vasilha cerâmica, com 20 cm de largura e 1 cm de
+    espessura. Este fragmento abrange a parede e início da base e se encontra associado a um caco com 25 cm de
+    comprimento e 18 cm de largura, localizado a 65 cm de profundidade.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O Conjunto 3 era formado por sete cacos cerâmicos. O conjunto estava posicionado verticalmente. Dois cacos são
+    fragmentos complexos com duas inflexões (uma na parede e outra próxima à base da vasilha). Eles também apresentavam
+    decoração plástica com botões de baixo relevo e apliques de filete com formato ondulado em uma parte da parede
+    (“beliscados”). A decoração também apresentava filetes aplicados, mas com motivos geométricos. O material se
+    encontrava no patamar entre 66 e 77 cm de profundidade.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O Conjunto 4 estava situado entre 83 e 101 cm de profundidade. É composto por um perfil cerâmico com borda reforçada
+    externamente e com coloração escura na face externa. Possui 20 x 25 cm de área e estava depositado verticalmente com
+    a borda inclinada na orientação Sudeste. A este caco estavam associados outros fragmentos cerâmicos de menor
+    proporção, identificados em sua maioria entre 85 e 95 cm de profundidade.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    O Conjunto 5 estava localizado entre 104 e 120 cm de profundidade e era composto de 2 fragmentos cerâmicos de
+    parede, separados por uma laterita. A forma em que o conjunto foi depositado era semelhante ao conjunto 4.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Foram coletados três fragmentos cerâmicos pertencentes ao mesmo artefato, em formato de cápsula, entre 77 e 82 cm de
+    profundidade. Este fragmento destoava dos demais pela sua morfologia e não foi enquadrado como conjunto.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    A partir do patamar de 140 cm de profundidade, o solo passou a apresentar textura argilo-arenosa, constatando-se uma
+    camada de transição para o solo estéril. Foram registrados materiais cerâmicos pontuais no patamar entre 130 e 150
+    cm de profundidade. Abaixo desta camada verificou-se a presença do latossolo na coloração 10YR 6/6.
+  </p>
+
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

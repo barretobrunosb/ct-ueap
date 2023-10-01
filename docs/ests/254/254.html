@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: center;
+      /* Alinhamento do texto no centro */
+      padding: 10px 1;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    /* Estilos para criar espaço entre o cabeçalho e o conteúdo */
+    main {
+      margin-top: 20px;
+      /* Espaço de 20 pixels na parte superior */
+      padding: 10px;
+      /* Espaçamento interno do conteúdo */
+    }
+
+    footer {
+      background-color: #333;
+      /* Cor de fundo do cabeçalho */
+      color: #fff;
+      /* Cor do texto do cabeçalho */
+      text-align: justify;
+      /* Alinhamento do texto justificado */
+      padding: 10px 0;
+      /* Espaçamento interno superior e inferior */
+    }
+
+    .faixa-cinza {
+      background-color: #ccc;
+      /* Cor da faixa cinza */
+      height: 5px;
+      /* Altura da faixa cinza */
+    }
+
+    h1 {
+      font-size: 22px;
+      /* Tamanho da fonte do título */
+      font-family: Arial, sans-serif;
+      /* Fonte do título */
+      margin: 0;
+      /* Remova margens padrão do título */
+    }
+
+    /* Estilos para o ícone */
+    .container {
+      margin-top: 20px;
+      /* Espaço de 20 pixels acima do ícone */
+      display: inline-block;
+      cursor: pointer;
+      /* Transforma o cursor em uma mão ao passar o mouse */
+    }
+
+    .voltar-mapa {
+      float: right;
+      /* Alinha à direita */
+      margin-top: 28px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+  <title id="titulo"></title>
+</head>
+
+<script>
+  // Obtém o nome do arquivo HTML atual
+  var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+  // Remove a extensão ".html" do nome do arquivo
+  var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+  // Texto a ser concatenado
+  var texto = "WebMap do sítio CT-UEAP - Estrutura ";
+
+  // Concatena o nome do arquivo com o texto adicional
+  var titulo = texto + nomeDoArquivo;
+
+  // Exibe o resultado no parágrafo
+  document.getElementById("titulo").textContent = titulo;
+</script>
+
+
+<header> <!-- CABEÇALHO DA PÁGINA -->
+  <div class="faixa-cinza"></div>
+  <h1>WebMap do Sítio CT-UEAP</h1> <!-- Título do Cabeçalho -->
+  <div class="faixa-cinza"></div>
+</header>
+
+<body>
+  <div class="container" onclick="history.back()">
+    <img src="../ico/return.png" width="50px" alt="Retornar para a página anterior">
+  </div>
+
+  <a href="../../../docs/map.html"> <!-- Botão de retorno -->
+    <button class="voltar-mapa">Voltar para o WebMap</button>
+  </a>
+
+  <h2 id="estrutura"></h2> <!-- Título do Parágrafo -->
+
+  <script>
+    // Obtém o nome do arquivo HTML atual
+    var nomeDoArquivo = window.location.pathname.split('/').pop();
+
+    // Remove a extensão ".html" do nome do arquivo
+    var nomeDoArquivo = nomeDoArquivo.replace(/\.html$/, '');
+
+    // Texto a ser concatenado
+    var texto = "Estrutura ";
+
+    // Concatena o nome do arquivo com o texto adicional
+    var estrutura = texto + nomeDoArquivo;
+
+    // Exibe o resultado no parágrafo
+    document.getElementById("estrutura").textContent = estrutura;
+  </script>
+
+
+
+
+
+  <!-- MODIFICAR DESTA PARTE PARA BAIXO -->
+
+
+
+
+
+  <h3>Tipo: Fossa com buraco de poste</h3>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Estrutura localizada na UC 276, Área 4, definida como Fossa. Verificou-se em superfície a presença de alguns
+    fragmentos cerâmicos soltos e uma possível lasca sobre laterita.
+  </p>
+
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="254_1.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Foto da estrutura 254
+      </b>
+    </figcaption>
+  </figure>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    No início da escavação havia um sedimento com coloração homogênea, o que dificultou a definição da morfologia
+    inicial da estrutura através das características do sedimento. A delimitação foi realizada com base na concentração
+    dos vestígios materiais (lateritas, fragmentos cerâmicos e argila queimada), que evidenciaram uma estrutura oval,
+    onde os fragmentos cerâmicos estavam em sua maioria verticalmente posicionados. Tal configuração permitiu uma
+    delimitação mais clara dos limites da fossa e das deposições, sugerindo que o material foi colocado em um único
+    evento, criando sobreposições que deixaram pouco espaço para o preenchimento posterior de sedimento.
+  </p>
+
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Nos primeiros 5 cm de profundidade a estrutura apresentou fragmentos cerâmicos de pequeno porte, com uma diversidade
+    de pastas. Destaca-se nesse contexto a presença de uma cerâmica de pasta branca, bem friável e sem núcleo aparente,
+    localizada na porção Norte. Este fragmento possuía incisões e estrutura irregular que lembra um assador. Ademais,
+    havia blocos de laterita que não possuíam marcas de uso.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Entre 5 e 10 cm de profundidade foram identificados fragmentos cerâmicos friáveis, alguns deles contendo incisões.
+    Alguns desses fragmentos estavam associados à carvão e a lateritas inferiores a 5 cm, sem marcas de uso, e outros
+    aparentavam ser da mesma vasilha, incluindo duas bordas.
+  </p>
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    No centro da estrutura havia uma quantidade expressiva de lateritas sobrepostas e uma grande quantidade de sedimento
+    entre elas. A maior parte deste material não apresentava marcas de uso, com exceção de uma laterita encontrada a 15
+    cm de profundidade. Os blocos de laterita possuíam grandes proporções (de até 16 cm de diâmetro) e superfície
+    irregular. Associados às lateritas e dispostos nas áreas adjacentes foram identificados fragmentos cerâmicos,
+    posicionados tanto na vertical quanto na horizontal, com distintas composições de pasta e condições e de conservação
+    friável.
+  </p>
+
+  <!-- Figura -->
+  <figure style="text-align: center;"> <!-- Caixa da Figura -->
+    <img src="254_2.jpg" alt="" width="100%"> <!-- Local e Tamanho da Figura -->
+    <figcaption> <!-- Legenda da Figura -->
+      <b>
+        Perfil e foto da estrutura 254
+      </b>
+    </figcaption>
+  </figure>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    No patamar entre 15 e 20 cm de profundidade ficou evidente a conformação de uma concentração de lateritas na porção
+    central da estrutura, sendo estas colocadas intencionalmente nesta área. Das lateritas localizadas neste patamar,
+    algumas talvez apresentem marcas de uso. Estes blocos de laterita estão associados a fragmentos cerâmicos, a maioria
+    na posição vertical e inclinados, sobrepostos entre as lateritas. A maioria é friável, sendo que um deles possui um
+    aplique mamiloforme.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Entre 20 e 26 cm de profundidade o sedimento ficou heterogêneo, apresentando pontos com concreções de argila, com
+    destaque para matizações mais claras entre as cerâmicas. Ademais, havia uma bioturbação entre as cerâmicas
+    (provavelmente de cupins), que criou uma estrutura porosa de sedimento acoplado aos fragmentos. Os vestígios
+    cerâmicos ficaram maiores e mais espessos, com uma pasta alaranjada e friável. Destaca-se neste patamar a presença
+    de: bolota de argila, uma borda de um prato e outra com incisões.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Os carvões passaram a ficar mais escassos a partir dos 26 cm de profundidade, porém as concentrações de lateritas
+    com material cerâmico prosseguiram. Dentre as lateritas identificadas, três continham possíveis marcas de uso.
+    Ademais, verificaram-se quatro bordas (uma delas com decoração incisa) e um pedaço de aplique.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Após os 30 cm de profundidade a quantidade de fragmentos cerâmicos e lateritas diminuiu, concentrando-se na porção
+    Norte da estrutura. A quantidade de sedimento entre os fragmentos aumentou e a porção Sul/Sudeste praticamente não
+    apresentou novos vestígios. Foram evidenciados materiais cerâmicos na porção Norte, dentre estes salientam-se dois
+    de maior porte, inclinados sob orientação semi-verticalizada, além de dois fragmentos de argila bastante friáveis,
+    com espessura mais grossa. Identificou-se entre as lateritas, bem no centro da estrutura, um sedimento bastante
+    argiloso e claro (10YR 7/6).
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Os limites da estrutura, a sobreposição e direção dos artefatos, dispostos uns sobre os outros, indicam uma
+    deposição proposital em camadas, onde o negativo foi preenchido propositalmente por lateritas e cerâmicas de
+    distintas vasilhas. A composição diferenciada da porção Sudeste, onde havia menor densidade de fragmentos cerâmicos,
+    associada a um hiato de vestígios de maior porte e um sedimento mais solto, sugere que esta porção se constitui
+    enquanto um “Buraco de Poste” que ao lado teve uma concentração de artefatos. O limite Sudoeste do possível “Buraco
+    de Poste” não era visível, como se unisse aos demais artefatos.
+  </p>
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Entre 30 e 45 cm de profundidade, identificaram-se lateritas, duas com possíveis marcas de uso. A estrutura
+    apresentou afunilamento na porção Central e no sentido Norte, com mais sedimento solto no seu interior até os 45 cm
+    de profundidade. Foi evidenciado um fragmento de aplique zoomorfo que estava a 38 cm de profundidade na porção
+    Central e disposto na posição horizontal.
+  </p>
+
+
+  <!-- Texto do Parágrafo -->
+  <p align="justify" style="font-size: 18px; line-height: 1.7;">
+    Entre 45 e 55 cm de profundidade o material cerâmico diminuiu consideravelmente, não registrando-se mais lateritas
+    após os 50 cm. O sedimento ficou mais solto a Norte, com a evidenciação de fragmentos cerâmicos dispersos e não
+    concentrados (bastante friáveis). O patamar entre 55 e 68 cm de profundidade, revelou baixa densidade de material
+    cerâmico. A escavação neste nível se restringiu a porção Norte da estrutura e estava associada a morfologia de um
+    possível “Buraco de Poste”. A estrutura foi encerrada aos 77 cm de profundidade (na porção Norte). O levantamento
+    preliminar registrou um total de 314 fragmentos cerâmicos e 14 possíveis líticos coletados na Estrutura 254.
+  </p>
+
+
+  <!-- RODAPÉ DA PÁGINA -->
+
+
+
+
+
+
+  <footer>
+    <div>
+      <p id="reference">
+
+      </p>
+    </div>
+
+    <script>
+      // Use JavaScript para ler o conteúdo do arquivo
+      var xmlhttp = new XMLHttpRequest();
+      var filePath = '../reference.txt'; // Caminho para o arquivo de texto
+
+      xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          // Quando a requisição for concluída com sucesso
+          var referenciaArquivo = xmlhttp.responseText;
+
+          // Texto Adicional
+          var texto = "Acesso em: ";
+
+          // Link de Acesso
+          var link = "https://barretobrunosb.github.io/ct-ueap"
+
+          // Concatenação do texto e do link
+          var textoAcesso = texto + "<a href='" + link + "'>" + link + "</a>";
+
+          // Concatena o texto adicional com o conteúdo do arquivo
+          var conteudoFinal = referenciaArquivo + textoAcesso;
+
+          // Exibe o conteúdo na página HTML
+          document.getElementById("reference").innerHTML = conteudoFinal;
+        } else if (xmlhttp.readyState == 4) {
+          // Se ocorrer um erro
+          document.getElementById("reference").innerHTML = "Erro ao carregar o arquivo.";
+        }
+      };
+
+      xmlhttp.open("GET", filePath, true);
+      xmlhttp.send();
+    </script>
+
+  </footer>
+
+</body>
+
+</html>
