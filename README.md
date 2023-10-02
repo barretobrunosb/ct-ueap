@@ -1,5 +1,7 @@
 # WebMap do sítio arqueológico CT-UEAP, Macapá, Amapá.
 
+[![DOI](https://zenodo.org/badge/699088606.svg)](https://zenodo.org/badge/latestdoi/699088606)
+
 **Bruno de Souza Barreto**   [![ORCID logo](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0002-9166-3875)
 
 **Rian Patrick Portilho Meneses** [![ORCID logo](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0009-0001-6234-4015)
