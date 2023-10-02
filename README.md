@@ -24,7 +24,11 @@
 
 **Victor Gomes Monteiro** [![ORCID logo](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0009-0009-2627-2358)
 
+**Lúcio Flávio Siqueira Costa Leite** 
+
 **Aline Coutinho** [![ORCID logo](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0001-8296-3297)
+
+**Lohana Katrini Picanço Pereira**
 
 
 Este reposit **Demic Diffusion and Cultural Transmission? Assessing the spread of Koriabo Tradition as an archaeological correlate of the Cariban language expansions**, presented to the journal *Antiquity*.
@@ -37,3 +41,41 @@ For the **lexical database** used in the paper, go to the GitHub repository [her
 ## **Abstract:** 
 
 Between AD 1000 and 1500, the Koriabo Tradition experienced a zenith of expansion that extended across the Guianas and the lower Amazon. Its presence endured even into the 16th and 17th centuries in the Caribbean and selected regions of the Amazon. Astonishingly, despite its extensive geographic reach, the ceramics associated with this tradition displayed striking consistency in both their decorative motifs and vessel shapes. In this paper, we employ radiocarbon modelling to delve into the hypothesis of Koriabo expansion, suggesting a dual process marked by cultural transmission and demic diffusion closely linked to the Cariban Languages. We posit that this dynamic interplay would have facilitated rapid dissemination and contributed to the establishment of more uniform archaeological patterns across the landscape.
+
+## **Lista de Contribuições** 
+
+**Elaboração do WebMap:**
+- Bruno de Souza Barreto
+
+**Vetorização da Planta em ambiente SIG:**
+- Rian Patrick Portilho Menezes
+- Bruno de Souza Barreto
+
+**Vetorização dos Croquis:**
+- Luiz Eduardo Oleiro
+
+**Atividades de Coordenação em Campo:**
+- Bruno de Souza Barreto
+- Luiz Eduardo Oleiro
+- Daiane Pereira
+- Keyla Maria Ribeiro Frazão
+- Rafael Amaral Stabile
+
+**Participação na Escavação:**
+- Bruno de Souza Barreto
+- Luiz Eduardo Oleiro
+- Daiane Pereira
+- Keyla Maria Ribeiro Frazão
+- Rafael Amaral Stabile
+- Alan Silva Nazaré
+- Alexandra Guimarães
+- Marcus Guedes
+- Suiane Sousa
+- Carla Matos
+- Victor Gomes Monteiro
+- Lucio Flávio Siqueira Costa Leite
+- Aline Coutinho
+- Lohana Katrini Picanço Pereira
+
+**Coordenação Geral do Projeto:**
+- Bruno de Souza Barreto
