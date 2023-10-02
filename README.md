@@ -45,7 +45,7 @@ Este repositório é referente ao **WebMap do sítio arqueológico CT-UEAP, Maca
 - Bruno de Souza Barreto
 
 **Vetorização da Planta em ambiente SIG:**
-- Rian Patrick Portilho Menezes
+- Rian Patrick Portilho Meneses
 - Bruno de Souza Barreto
 
 **Páginas de informações adicionais:**
