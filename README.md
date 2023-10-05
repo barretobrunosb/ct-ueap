@@ -86,4 +86,5 @@ Este repositório é referente ao **WebMap do sítio arqueológico CT-UEAP, Maca
 - Marcos Jessé Lopes da Silva
   
 
-[WebMap do sítio arqueológico CT-UEAP](https://github.com/barretobrunosb/ct-ueap) by [Bruno de Souza Barreto](https://github.com/barretobrunosb) is licensed under [CC BY-NC-SA 4.0![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
+[WebMap do sítio arqueológico CT-UEAP](https://github.com/barretobrunosb/ct-ueap) by [Bruno de Souza Barreto](https://github.com/barretobrunosb) is licensed under 
+[CC BY-NC-SA 4.0![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
